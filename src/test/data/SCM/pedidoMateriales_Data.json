@@ -1,0 +1,52 @@
+{
+    "agregar": {
+        "nombrePedido" : "PM Prueba Automatizada ",
+        "notasPedido" : "Pedido de Materiales Prueba Automatizada Nota",
+        "filtroDescripcion" : "guante",
+        "cantidad": "5",
+        "glosa": " Pedido de Materiales Prueba Automatizada Glosa",
+        "diasDespacho": "7",
+        "comentarios": "Pedido de Materiales Prueba Automatizada Comentarios",
+        "porcentaje1" : "60",
+        "porcentaje2" : "40",
+        "precio": "100",
+        "cuentaCosto1": "28",
+        "cuentaCosto2": "555",
+        "codigo" : "95462"
+    },
+
+    "maestro": {
+        "nombrePedido" : "PM Maestro PA ",
+        "notasPedido" : "Pedido de Materiales Maestro Prueba Automatizada Nota",
+        "filtroDescripcion1" : "guante cabritilla",
+        "cantidad1": "5",
+        "filtroDescripcion2" : "guante multiprotec",
+        "cantidad2": "2",
+        "filtroDescripcion3" : "GUANTES QUIRURGICOS TALLA L",
+        "cantidad3": "4",
+        "glosa": " Pedido de Materiales Maestro Prueba Automatizada GLosa",
+        "diasDespacho": "5",
+        "comentarios": "Pedido de Matriales Maestro Prueba Automatizada Comentarios",
+        "porcentaje1" : "60",
+        "porcentaje2" : "40", 
+        "cuentaCosto" : "28"
+    },
+
+    "maestro1": {
+        "nombrePedido" : "PM Maestro PA ",
+        "notasPedido" : "Pedido de Materiales Maestro Prueba Automatizada Nota",
+        "filtroDescripcion1" : "guante cabritilla",
+        "cantidad1": "5",
+        "filtroDescripcion2" : "guante multiprotec",
+        "cantidad2": "2",
+        "filtroDescripcion3" : "GUANTES QUIRURGICOS TALLA L",
+        "cantidad3": "4",
+        "glosa": " Pedido de Materiales Maestro Prueba Automatizada GLosa",
+        "diasDespacho": "5",
+        "comentarios": "Pedido de Matriales Maestro Prueba Automatizada Comentarios",
+        "porcentaje1" : "60",
+        "porcentaje2" : "40",
+        "cuentaCosto" : "28"
+    }
+
+}

@@ -1,0 +1,23 @@
+{
+    "prod": {
+        "copiarUsuario": {
+            "usuario": "Pablo Prueba Prueba (pprueba)",
+            "cg": "60800"
+        },
+
+        "reemplazarUsuario":{
+            "usuario": "Tristan Agustin Figueras (tagustin)"
+        } 
+    },
+    "qa": {
+        "copiarUsuario": {
+            "usuario": "aprobador1 (aprobador1)",
+            "cg": "56942"
+        },
+        "reemplazarUsuario":{
+            "usuario": "Preuba Preuba (ppreuba)"
+        } 
+    }
+}
+
+

@@ -1,0 +1,73 @@
+{
+    "prod": {
+        "implantaciones": {
+            "usuario": "nlorca",
+            "organizacion": "implantaciones",
+            "password": "Prod2022",
+            "empresaName": "implantaciones",
+            "name": "Nelson Lorca",
+            "pin": "2244",
+            "personaRetira": "Mari",
+            "destino": "Destino Departamentos",
+            "item": "Demoledor",
+            "bodega": "Bodega Norte",
+            "producto": "Arriendo Demoledor 30 kilos",
+            "centroGestion": "CG TestCafe"
+        },
+        "comprador": {
+            "usuario": "nlorca",
+            "organizacion": "compradorselenium",
+            "password": "Prod2022",
+            "empresaName": "CompradorSelenium",
+            "name": "Nelson Lorca",
+			"pin": "2244",
+            "personaRetira": "Mari",
+            "destino": "departamento",
+            "item": "Pala",
+            "bodega": "bodega principal",
+            "producto": "GUANTES NEGROS SOFT",
+            "partida": "santa isabel",
+            "centroGestion": "CG TestCafe"
+        },
+        "userCorreo": {
+            "correo": "yudeysi.castro@iconstruye.com",
+            "password": "automatizacion",
+            "pin": "2244"
+        }
+    },
+    "qa": {
+        "implantaciones": {
+            "usuario": "nlorca",
+            "organizacion": "implantaciones",
+            "password": "nlorca",
+            "empresaName": "implantaciones",
+            "name": "Nelson Lorca G.",
+            "pin": "2244",
+            "personaRetira": "Mari",
+            "destino": "DPTO 287",
+            "item": "Guante",
+            "bodega": "Bodega Stgo",
+            "centroGestion": "CG TestCafe"
+        },
+        "comprador": {
+            "usuario": "nlorca",
+            "organizacion": "compradorselenium",
+            "password": "pp1234",
+            "empresaName": "CompradorSelenium",
+            "name": "Nelson Lorca",
+            "pin": "2244",
+            "personaRetira": "Mari",
+            "destino": "Destino Cocina",
+            "item": "Guante",
+            "bodega": "bodega principal",
+            "producto": "guante cabritilla",
+            "partida": "partida A",
+            "centroGestion": "CG TestCafe"
+        },
+        "userCorreo": {
+            "correo": "icpruebasautomaticas@gmail.com",
+            "password": "ic2022",
+            "pin": "2244"
+        }
+   }
+}

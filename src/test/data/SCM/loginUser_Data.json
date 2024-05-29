@@ -1,0 +1,218 @@
+{
+    "prod": {
+        "implantaciones":{
+            "usuario": "nlorca",
+            "organizacion": "implantaciones",
+            "password": "Prod2022",
+            "name": "Nelson Lorca"
+        },
+        "comprador": {
+            "usuario": "nlorca",
+            "organizacion": "compradorselenium",
+            "password": "Prod2022",
+            "name": "Nelson Lorca",
+            "centroGestion" : "CG TestCafe"
+        },
+        "proveedor": {
+            "usuario": "nlorca",
+            "organizacion": "proveedorselenium",
+            "password": "Prod2022",
+            "name": "Nelson Lorca",
+            "centroGestion" : "proveedor selenium"
+        },
+        "confoneclick":{
+            "usuario": "admin2",
+            "organizacion": "confoneclick",
+            "password": "qa1234",
+            "centroGestion" : "Obra Uno"
+        },
+        "aprobador1":{
+            "usuario": "aprobador1",
+            "organizacion": "compradorselenium",
+            "password": "Prod2022",
+            "centroGestion" : "CG TestCafe"
+        },
+        "aprobador2":{
+            "usuario": "aprobador2",
+            "organizacion": "compradorselenium",
+            "password": "Prod2022",
+            "centroGestion" : "CG TestCafe"
+        }, 
+        "userCorreoSSO":{
+            "correo": "yudeysi.castro@iconstruye.com",
+            "password": "automatizacion",
+            "centroGestion" : "CG 10 TestCafe"
+        },
+        "correoSsoMKP":{
+            "correo": "eduardo.fernandez@iconstruye.com",
+            "password": "1234567"
+        },
+        "usuarioSsoMKP":{
+            "usuario": "mrr",
+            "org": "pruebamarce",
+            "password": "1234567"
+        }
+    },
+    "qa": {
+        "implantaciones":{
+            "usuario": "nlorca",
+            "organizacion": "implantaciones",
+            "password": "qwerty",
+            "name": "Nelson Lorca"
+        },
+        "comprador": {
+            "usuario": "nlorca",
+            "organizacion": "compradorselenium",
+            "password": "pp1234",
+            "name": "Nelson Lorca",
+            "centroGestion" : "CG TestCafe"
+        },
+        "proveedor": {
+            "usuario": "nlorca",
+            "organizacion": "proveedorselenium",
+            "password": "p123123",
+            "name": "Nelson Lorca",
+            "centroGestion" : "proveedor selenium"
+        },
+        "confoneclick":{
+            "usuario": "admin2",
+            "organizacion": "confoneclick",
+            "password": "qa1234",
+            "centroGestion" : "Obra Uno"
+        },
+        "aprobador1":{
+            "usuario": "aprobador1",
+            "organizacion": "compradorselenium",
+            "password": "pp1234",
+            "centroGestion" : "CG TestCafe"
+        },
+        "aprobador2":{
+            "usuario": "aprobador2",
+            "organizacion": "compradorselenium",
+            "password": "diiyfnao",
+            "centroGestion" : "CG TestCafe"
+        },
+        "userCorreoSSO":{
+            "correo": "icpruebasautomaticas@gmail.com",
+            "password": "ic2022",
+            "centroGestion" : "CG 10 TestCafe"
+        },
+        "correoSsoMKP":{
+            "correo": "eduardo.fernandez@iconstruye.com",
+            "password": "123456"
+        },
+        "usuarioSsoMKP":{
+            "usuario": "mrr",
+            "organizacion": "pruebamarce",
+            "password": "123456"
+        }
+   } ,
+   "webpp": {
+        "implantaciones":{
+            "usuario": "nlorca",
+            "organizacion": "implantaciones",
+            "password": "qwerty",
+            "name": "Nelson Lorca"
+        },
+        "comprador": {
+            "usuario": "nlorca",
+            "organizacion": "compradorselenium",
+            "password": "pp1234",
+            "name": "Nelson Lorca",
+            "centroGestion" : "CG TestCafe"
+        },
+        "proveedor": {
+            "usuario": "nlorca",
+            "organizacion": "proveedorselenium",
+            "password": "p123123",
+            "name": "Nelson Lorca",
+            "centroGestion" : "proveedor selenium"
+        },
+        "confoneclick":{
+            "usuario": "admin2",
+            "organizacion": "confoneclick",
+            "password": "qa1234",
+            "centroGestion" : "Obra Uno"
+        },
+        "aprobador1":{
+            "usuario": "aprobador1",
+            "organizacion": "compradorselenium",
+            "password": "pp1234",
+            "centroGestion" : "CG TestCafe"
+        },
+        "aprobador2":{
+            "usuario": "aprobador2",
+            "organizacion": "compradorselenium",
+            "password": "diiyfnao",
+            "centroGestion" : "CG TestCafe"
+        },
+        "userCorreoSSO":{
+            "correo": "icpruebasautomaticas@gmail.com",
+            "password": "ic2022",
+            "centroGestion" : "CG 10 TestCafe"
+        },
+        "correoSsoMKP":{
+            "correo": "eduardo.fernandez@iconstruye.com",
+            "password": "123456"
+        },
+        "usuarioSsoMKP":{
+            "usuario": "mrr",
+            "org": "pruebamarce",
+            "password": "123456"
+        }
+     },
+     "webpptemp": {
+        "implantaciones":{
+            "usuario": "nlorca",
+            "organizacion": "implantaciones",
+            "password": "qwerty",
+            "name": "Nelson Lorca"
+        },
+        "comprador": {
+            "usuario": "nlorca",
+            "organizacion": "compradorselenium",
+            "password": "pp1234",
+            "name": "Nelson Lorca",
+            "centroGestion" : "CG TestCafe"
+        },
+        "proveedor": {
+            "usuario": "nlorca",
+            "organizacion": "proveedorselenium",
+            "password": "p123123",
+            "name": "Nelson Lorca",
+            "centroGestion" : "proveedor selenium"
+        },
+        "confoneclick":{
+            "usuario": "admin2",
+            "organizacion": "confoneclick",
+            "password": "qa1234",
+            "centroGestion" : "Obra Uno"
+        },
+        "aprobador1":{
+            "usuario": "aprobador1",
+            "organizacion": "compradorselenium",
+            "password": "pp1234",
+            "centroGestion" : "CG TestCafe"
+        },
+        "aprobador2":{
+            "usuario": "aprobador2",
+            "organizacion": "compradorselenium",
+            "password": "diiyfnao",
+            "centroGestion" : "CG TestCafe"
+        },
+        "userCorreoSSO":{
+            "correo": "icpruebasautomaticas@gmail.com",
+            "password": "ic2022",
+            "centroGestion" : "CG 10 TestCafe"
+        },
+        "correoSsoMKP":{
+            "correo": "eduardo.fernandez@iconstruye.com",
+            "password": "123456"
+        },
+        "usuarioSsoMKP":{
+            "usuario": "mrr",
+            "org": "pruebamarce",
+            "password": "123456"
+        }
+     }
+}

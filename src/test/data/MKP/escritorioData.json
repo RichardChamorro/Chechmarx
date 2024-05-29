@@ -1,0 +1,12 @@
+{
+    "prod": {
+         "accesoDirecto": "Despachos",
+         "suscripcionA": "PLGold - Gold Package",
+         "suscripcionB": "IConstruye"
+    },
+    "qa": {
+         "accesoDirecto": "Despachos",
+         "suscripcionA": "PLGold - Gold Package",
+         "suscripcionB": "Construmart"
+    }
+ }

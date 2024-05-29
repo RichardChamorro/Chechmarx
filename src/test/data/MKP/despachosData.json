@@ -1,0 +1,16 @@
+{
+    "prod":{
+        "fechaRecepcionInicial": "01/09/2021",
+        "fechaRecepcionFinal": "04/10/2021",
+        "fechaRecepcionInicialRechazo": "01/09/2021",
+        "fechaRecepcionFinalRechazo": "04/10/2021"
+        
+    },
+    "qa": {
+        "fechaRecepcionInicial": "01/01/2022",
+        "fechaRecepcionFinal": "31/08/2022",
+        "fechaRecepcionInicialRechazo": "01/09/2022",
+        "fechaRecepcionFinalRechazo": "01/09/2022"
+    }
+  
+}

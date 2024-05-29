@@ -1,0 +1,18 @@
+{
+    "prod": {
+        "estado": "En Revisión",
+        "numeroOrdenCompra": "Qa-125",
+        "numeroOCCot": "Qa-134",
+        "aceptarOC": "",
+        "rechazarOC": "",
+        "aceptarMasivoOC": ""
+    },
+    "qa": {
+        "estado": "En Revisión",
+        "numeroOrdenCompra": "100-2574",
+        "numeroOCCot": "100-2650",
+        "aceptarOC": "100-2616",
+        "rechazarOC": "100-2629",
+        "aceptarMasivoOC": "100-2638"
+    }
+}

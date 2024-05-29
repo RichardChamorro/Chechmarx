@@ -1,0 +1,13 @@
+{
+   "prod": {
+        "numeroCot": "43",
+        "numeroCotGuardada": "55",
+        "numeroCotDescartar": "151"
+   },
+   
+   "qa": {
+        "numeroCot": "490",
+        "numeroCotGuardada": "4",
+        "numeroCotDescartar": "100-482"
+   }
+}

@@ -1,0 +1,26 @@
+{
+    "prod": {
+        "user": {
+            "usuario": "ciclocritico@iconstruye.com",
+            "password": "ccritico"
+        }
+    },
+    "qa": {
+        "user": {
+            "usuario": "eduardo.rojas@iconstruye.com",
+            "password": "qa4321"
+        }
+    },
+    "qa2": {
+        "user": {
+            "usuario": "eduardo.rojas@iconstruye.com",
+            "password": "qa4321"
+        }
+    },
+    "qa3": {
+        "user": {
+            "usuario": "eduardo.rojas@iconstruye.com",
+            "password": "qa4321"
+        }
+    }
+}    

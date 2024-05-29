@@ -1,0 +1,14 @@
+{
+    "prod": {
+        "cg": "[1515] - CG TestCafe",
+        "numeroCG": "60800",
+        "userOrigen": "aprobador1 [aprobador1]"
+          
+       
+    },
+    "qa": {
+        "cg": "[cg 11] - CG TestCafe",
+        "numeroCG": "56942",
+        "userOrigen": "aprobador1 [aprobador1]"
+    }
+}

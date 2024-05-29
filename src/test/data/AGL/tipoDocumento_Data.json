@@ -1,0 +1,9 @@
+{
+    "prod":{
+       "tipoDocumento": "Factura electrónica"
+    },
+
+    "qa":{
+        "tipoDocumento": "Nota de crédito electrónica"
+    }
+}

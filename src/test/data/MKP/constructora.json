@@ -1,0 +1,12 @@
+{
+   "prod": {
+        "nombre": "Constructora Magna",
+        "rut": "76168618-6",
+        "nombreCompleto": "Constructora Magna Limitada"
+   },
+   "qa": {
+        "nombre": "CONSTRUCTORA CARRAN S A",
+        "rut": "96850490-8",
+        "nombreCompleto": "Constructora Carrán S.A"
+   }
+}

@@ -1,0 +1,13 @@
+{
+    "prod":{
+        "equipo": "flete",
+        "cliente": "Constructora de Vicente SA",
+        "clienteList": "Constructora De Vicente S.A."
+    },
+    "qa": {
+        "equipo": "Muebles de Oficina",
+        "cliente": "ICONSTRUYE SA",
+        "clienteList": "ICONSTRUYE S.A."
+    }
+  
+}

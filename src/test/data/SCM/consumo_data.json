@@ -1,0 +1,15 @@
+{
+    "prod":{
+       "partida": "santa isabel"
+    },
+
+    "qa":{
+        "partida": "partida A"
+    },
+    "webpp":{
+        "partida": "partida A"
+     },
+     "webpptemp":{
+        "partida": "partida A"
+     }
+}

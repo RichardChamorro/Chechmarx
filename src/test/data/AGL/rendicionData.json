@@ -1,0 +1,21 @@
+{
+    "prod":{
+        "unidadRendicion": "PRUEBAS AUTOMATIZADAS",
+        "centroCosto": "Pruebas Automatizadas 1"
+    },
+
+    "qa":{
+        "unidadRendicion": "PRUEBAS AUTOMATIZADAS",
+        "centroCosto": "Pruebas Automatizadas 1",
+        "nombreGasto": "Test Robot Gasto ",
+        "tipoDocumento": "Voucher Crédito",
+        "rutProveedor": "24362903-9",
+        "nombreProveedor": "DMB",
+        "moneda": "CLP",
+        "monto": "100",
+        "categoria": "Alimentación",
+        "subcategoria": "Alimento 2",
+        "rendirPor": "Renzo Mori",
+        "correo": "renzo.mori@iconstruye.com"
+    }
+}

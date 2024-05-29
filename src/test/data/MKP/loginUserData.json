@@ -1,0 +1,50 @@
+{
+
+    "prod": {
+        "userCot": {
+            "user": "camilahormazabal.gianoni@gmail.com",
+            "password": "Camilaqa123",
+            "nombre": "Camila",
+            "apellido": "Hormazabal",
+            "telefono": "+56957768620",
+            "nombreCompleto": "CAMILA LILY HORMAZABAL GIANONI"
+        },
+        "userGlobal": {
+            "user": "nelson.lorca@iconstruye.com",
+            "password": "aBgpoKsj",
+            "nombre": "Nelson",
+            "apellido": "Lorca",
+            "telefono": "+56957768620",
+            "nombreCompleto": "NELSON ANDRES LORCA GONZALEZ"
+        },
+        "userSuscripcion":{
+            "user": "camila.hormazabal@iconstruye.com",
+            "password": "1234567"
+        }
+    },
+    "qa": {
+        "userCot": {
+            "user": "eduardo.fernandez@iconstruye.com",
+            "password": "123456",
+            "nombre": "Eduardo",
+            "apellido": "Fernandez",
+            "telefono": "+56957768620",
+            "nombreCompleto": "CAMILA LILY HORMAZABAL GIANONI"
+        },
+        "userGlobal": {
+            "user": "eduardo.fernandez@iconstruye.com",
+            "password": "123456",
+            "nombre": "Eduardo",
+            "apellido": "Fernandez",
+            "telefono": "+56957768620",
+            "nombreCompleto": "CONSTRUMART S.A."
+        },
+        "userSuscripcion":{
+            "user": "eduardo.fernandez@iconstruye.com",
+            "password": "123456"
+        }
+   
+    }
+
+    
+}

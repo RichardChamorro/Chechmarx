@@ -1,0 +1,15 @@
+{
+    "prod": {
+        "rut": "17921220-K",
+        "nombre": "PATRICIA ALEJANDRA LLANO RECABAL",
+        "rutEmpresaOC" : "17921220-K",
+        "nombreEmpresaOC" : "PATRICIA ALEJANDRA LLANO RECABAL"
+    },
+
+    "qa":{
+        "rut": "17921220-K",
+        "nombre": "PATRICIA ALEJANDRA LLANO RECABAL",
+        "rutEmpresaOC" : "96941720-0",
+        "nombreEmpresaOC" : "ICONSTRUYE SA"
+    }
+}
