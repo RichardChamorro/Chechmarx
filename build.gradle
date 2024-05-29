@@ -1,0 +1,81 @@
+
+
+defaultTasks 'test'
+
+
+group 'cl.tsoft'
+version '1.0'
+
+
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+
+buildscript {
+    repositories {
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+}
+
+apply plugin: "java"
+
+compileJava {options.encoding = "UTF-8"}
+compileTestJava {options.encoding = "UTF-8"}
+
+dependencies {
+    //  implementation 'junit:junit:4.13.2'
+    testImplementation('org.junit.jupiter:junit-jupiter-api:5.9.2')
+    testRuntimeOnly('org.junit.jupiter:junit-jupiter-engine:5.9.2')
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.9.1'
+    testImplementation("io.github.bonigarcia:webdrivermanager:5.4.1")
+    testImplementation group: 'io.cucumber', name: 'cucumber-junit', version: '7.12.0'
+    implementation group: 'io.cucumber', name: 'cucumber-java', version: '7.12.0'
+    testImplementation group: 'io.cucumber', name: 'cucumber-picocontainer', version: '7.12.0'
+    implementation group: 'com.google.code.gson', name: 'gson', version: '2.10'
+    implementation group: 'org.slf4j', name: 'slf4j-api', version: '2.0.5'
+    implementation group: 'tech.grasshopper', name: 'extentreports-cucumber7-adapter', version: '1.9.2'
+    implementation group: 'com.aventstack', name: 'extentreports', version: '5.0.9'
+    implementation group: 'org.junit.vintage', name: 'junit-vintage-engine', version: '5.9.2'
+    implementation 'io.qameta.allure:allure-cucumber7-jvm:2.22.1'
+}
+
+test {
+    dependsOn assemble, compileTestJava
+    jvmArgs '--enable-preview'
+    useJUnitPlatform()
+}
+configurations {
+    cucumberRuntime {
+        extendsFrom testImplementation
+    }
+}
+
+def tags = (findProperty('tags') == null) ? 'not @Ignore' : findProperty('tags') + ' and not @Ignore'
+def threads = (findProperty('threads') == null) ? 0 : findProperty('threads')
+task runWithCucumber(type: JavaExec) {
+    dependsOn assemble, testClasses
+    classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
+    mainClass = "io.cucumber.core.cli.Main"
+    args = [
+            '--plugin', 'pretty' ,
+            '--plugin', 'json:results/cucumber.json',
+            '--plugin', 'com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:',
+            '--plugin', 'junit:results/cucumber.xml',
+            '--plugin', 'io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm',
+            '--glue', 'steps',
+            'src/test/resources/features',
+            '--tags', "${tags}",
+]
+    def env = (findProperty('env') == null) ? 'qa' : findProperty('env')
+    systemProperty "env", env
+    def nav = (findProperty('nav') == null) ? 'Chrome' : findProperty('nav')
+    systemProperty "nav", nav
+}
+
+
+
